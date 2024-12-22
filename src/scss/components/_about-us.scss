@@ -1,0 +1,81 @@
+.about-us {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f4f7fb;
+  border-radius: 10px;
+}
+
+.about-us__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-us__icon {
+  color: #f8c503;
+}
+
+.about-us__description {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.about-us__highlight {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.about-us__cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.about-us__card {
+  flex: 1 1 22%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.about-us__card-icon {
+  margin-bottom: 15px;
+}
+
+.about-us__card-icon--primary {
+  color: #007bff;
+}
+
+.about-us__card-icon--secondary {
+  color: #28a745;
+}
+
+.about-us__card-icon--danger {
+  color: #dc3545;
+}
+
+.about-us__card-icon--info {
+  color: #17a2b8;
+}
+
+.about-us__card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-us__card-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.about-us__conclusion {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 20px;
+}

@@ -1,0 +1,72 @@
+.home {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-content__intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.main-content__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.main-content__description {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.main-content__button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.main-content__button:hover {
+  background-color: #0056b3;
+}
+
+/* Стилі для різних секцій */
+.popular-posts {
+  margin-bottom: 40px;
+}
+
+.about-us {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.subscribe {
+  background-color: #28a745;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}

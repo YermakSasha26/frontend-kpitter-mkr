@@ -1,0 +1,103 @@
+.header {
+  background-color: #f8f9fa;
+  padding: 16px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    color: #343a40;
+    text-decoration: none;
+  }
+
+  &__logo-icon {
+    margin-right: 8px;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+
+  &__button {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 16px;
+    margin-left: 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s ease;
+
+    &-icon {
+      margin-right: 6px;
+    }
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &--create-post {
+      background-color: #007bff;
+      color: #fff;
+      border: 1px solid #007bff;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+
+    &--profile {
+      background-color: #6c757d;
+      color: #fff;
+      border: 1px solid #6c757d;
+
+      &:hover {
+        background-color: #495057;
+      }
+    }
+
+    &--logout {
+      background-color: #dc3545;
+      color: #fff;
+      border: 1px solid #dc3545;
+
+      &:hover {
+        background-color: #c82333;
+      }
+    }
+
+    &--login {
+      background-color: #17a2b8;
+      color: #fff;
+      border: 1px solid #17a2b8;
+
+      &:hover {
+        background-color: #138496;
+      }
+    }
+
+    &--register {
+      background-color: #28a745;
+      color: #fff;
+      border: 1px solid #28a745;
+
+      &:hover {
+        background-color: #218838;
+      }
+    }
+  }
+}
